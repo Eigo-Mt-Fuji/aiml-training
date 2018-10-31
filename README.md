@@ -35,7 +35,9 @@ source $PYENV_ROOT/versions/anaconda3-5.2.0
 pip install jupyter
 pip install "ipython[notebook]"
 pip install pandas #  numpy
-pip install 
+pip install matplotlib # matplotlib.
+pip freeze > requirements.txt # pip install -r requirements.txt でインストールできるように。
+
 ```
 1. pipのアップグレード（警告が表示される場合）
 ```
