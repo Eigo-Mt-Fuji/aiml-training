@@ -60,20 +60,6 @@ jupyer-notebook  # http://localhost:8888/がブラウザにて起動されるこ
 
 ## 教材をPDF化して、スマホで見れるようにする
 
-1.pandocインストール
-
 ```
-brew install pandoc
-```
-1. LaTeXインストール
-
-```
-brew update 
-brew upgrade
-brew install ghostscript
-brew install imagemagick
-brew tap phinze/homebrew-cask
-brew cask install basictex
-brew cask cleanu
-tlmgr install collection-fontsrecommended
+ChromeのPrint Preview -> PDFで保存でOK
 ```
