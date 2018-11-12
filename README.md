@@ -39,6 +39,7 @@ pip install matplotlib # matplotlib.
 pip install List # list 型キャストで使う
 pip install scikit-learn # sklearn 0.20 教師あり学習で使う。0.20.0以降でcross_validateがなくなっているので注意
 pip install opencv-python # 画像処理。pythonからはcv2で参照するので注意
+pip install xlrd # pandas excel read
 pip freeze > requirements.txt # pip install -r requirements.txt でインストールできるように。
 
 ```
