@@ -6,6 +6,7 @@
 
 ```
 $ docker build .
+$ docker ps --filter "ancestor=aiml:latest" --format "{{.Names}}"
 $ docker run -p 8888:8888 -t aiml:latest -d
 $ open http://localhost:8888 # password: test
 ```
