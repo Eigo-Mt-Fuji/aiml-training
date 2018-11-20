@@ -2,6 +2,14 @@
 
 ## アジェンダ
 
+* Docker
+
+```
+$ docker build .
+$ docker run -p 8888:8888 -t aiml:latest -d
+$ open http://localhost:8888 # password: test
+```
+
 * Macへの環境インストール
 
 
