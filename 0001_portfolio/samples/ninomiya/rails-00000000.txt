@@ -1,0 +1,8 @@
+https://qiita.com/_kazuya/items/5376ab84ed870ceb5a3a
+`Google検索` で `rails 5 coffee-rails Bundler could not find compatible versions` と調べると、下記のようなサイトが出て来る. Gemfile内で想定してる `Railsバージョン (5.1.5)` に対してGemfile内の依存関係パッケージバージョンがずれているのが原因に見て取れます。なので、 `Gemfile内の各Gemのバージョンを訂正` ＋`Gemfile.lockファイルを一時退避` してから`bundle install実行` で解消する
+エラーメッセージに下記が出力されている
+```
+Bundler could not find compatible versions for gem "coffee-rails":
+ In Gemfile:
+   coffee-rails (= 4.0.1)
+```

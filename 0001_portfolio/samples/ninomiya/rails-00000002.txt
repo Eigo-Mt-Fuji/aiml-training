@@ -1,0 +1,7 @@
+https://cloud.google.com/storage/docs/cloud-console?hl=ja
+Google Cloud Storage `データの一般公開` の箇所に 手順と公開URLの構成がかかれているので確認してみてください
+GCPは一通り設定しましたがまだ警告マークが出ており、
+実際にURLで叩いて見ましたが
+SSのようなエラーが出ています。
+その為まだDBの方にはURLは入れてない状況です。 (edited)
+スクリーンショット 2018-10-27 11.20.03.png 
